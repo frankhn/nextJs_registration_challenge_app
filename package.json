@@ -6,19 +6,39 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "local:server": "npx json-server --id email --watch ./src/api/db.json ---port 4000"
   },
   "dependencies": {
+    "antd": "^4.20.6",
+    "axios": "^0.27.2",
+    "classnames": "^2.3.1",
+    "formik": "^2.2.9",
+    "lodash": "^4.17.21",
     "next": "12.1.6",
+    "query-string": "^7.1.1",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-query": "^3.39.0",
+    "react-router-dom": "^6.3.0",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
+    "@types/classnames": "^2.3.1",
+    "@types/lodash": "^4.14.182",
     "@types/node": "17.0.35",
     "@types/react": "18.0.9",
     "@types/react-dom": "18.0.5",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/yup": "^0.29.14",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "autoprefixer": "^10.4.7",
     "eslint": "8.16.0",
     "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.6.2",
+    "tailwindcss": "^3.0.24",
     "typescript": "4.7.2"
   }
 }
