@@ -57,19 +57,17 @@ const Register: NextPage = () => {
                     size="large"
                     className="border-2 rounded p-2"
                 />
-                <div className="flex flex-row flex-wrap justify-between">
-                    <div className="w-full md:w-5/12">
-                <Input.Password
-                    placeholder="12345"
-                    label="Password"
-                    value={values.email}
-                    onChange={handleChange('password')}
-                    error={errors.password}
-                    autoComplete="password"
-                    size="large"
-                    className="border-2 rounded p-2"
-                />
-                </div>
+                <div className="my-8">
+                    <Input.Password
+                        placeholder="12345"
+                        label="Password"
+                        value={values.password}
+                        onChange={handleChange('password')}
+                        error={errors.password}
+                        autoComplete="password"
+                        size="large"
+                        className="border-2 rounded p-2"
+                    />
                 </div>
                 <Button
                     size="large"
@@ -81,11 +79,19 @@ const Register: NextPage = () => {
                     Login
                 </Button>
             </form>
-            <div className="w-full md:w-11/12 flex flex-row items-center font-light text-sm justify-end">
-                <p className="link my-4">
-                    <Link href="/forgot-password"><a>Forget Password</a></Link>
-                </p>
+            <div className='w-full md:w-11/12 flex flex-row items-center font-light text-sm justify-between'>
+                <div className="">
+                    <p className="link my-4">
+                        <Link href="/register"><a>Register</a></Link>
+                    </p>
+                </div>
+                <div className="">
+                    <p className="link my-4">
+                        <Link href="/forgot-password"><a>Forget Password</a></Link>
+                    </p>
+                </div>
             </div>
+
         </div>
     )
 }
