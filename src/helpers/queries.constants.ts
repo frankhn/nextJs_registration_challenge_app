@@ -1,0 +1,3 @@
+export const LOGIN_USER = 'LOGIN_USER';
+export const CREATE_ACCOUNT = 'CREATE_ACCOUNT';
+export const GET_CURRENT_USER = 'GET_CURRENT_USER';
