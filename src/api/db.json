@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "athony franklin",
+            "birthDate": "20/03/2021",
+            "email": "franklin@gmail.com"
+        },
+        {
+            "id": 2,
+            "name": "mula stiven",
+            "birthDate": "20/03/2021",
+            "email": "harfrank2@gmail.com"
+        },
+        {
+            "id": 3,
+            "name": "lebron kim",
+            "birthDate": "20/03/2021",
+            "email": "lebron@gmail.com"
+        },
+        {
+            "id": 4,
+            "name": "ben kamanzi",
+            "birthDate": "20/03/2021",
+            "email": "fh@gmail.com"
+        }
+    ]
+}
